@@ -40,3 +40,9 @@ var person = {
         return this.firstName + " " + this.lastName;
     }
 };
+//name = person.fullName(); return full name
+
+var daysOfTheWeek = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+
+//daysOfTheWeek[4];
+//"thursday"
