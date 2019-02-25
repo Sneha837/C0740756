@@ -4,10 +4,10 @@
     <script type="text/javascript">
 
         var sum = 0
-        for (i = 117; i > 11;) {
+        for (i = 117; i > 11;)
+        {
             sum += i;
             i -= 8;
-
 
         }
         document.write(sum);
@@ -15,23 +15,39 @@
     </script>
     <script>
         var j = 117
-        var sum1 = 0;
+       var sum1 = 0;
         while (j > 11) {
             sum1 += j;
             j -= 8;
+            
+            }        
+
+    </script>
+
+    <script>
+        function p() {
+            k = 117;
+            sum2 = 0;
+            while (k > 11) {
+                sum1 += k;
+                k -= 8;
+
+            }
+            return sum2;
         }
-        document.write(sum1);
-
-
     </script>
    
 
     <title></title>
 </head>
 <body>
+    <script>
+        document.write("Sum is", p());
+    </script>
     <div>adding numbers</div>
-   
-    
+
+
+
 </body>
 
 </html>
