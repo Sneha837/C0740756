@@ -31,3 +31,12 @@ var motorcycle = {
     numtires= 2,
     model = "Honda"
 };
+
+var person = {
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
+};
