@@ -22,14 +22,14 @@ var bear = {
 };
 
 var car = {
-    color = "RED",
-    numtires= 4,
-    model = "Hyundai"
+    color:"RED",
+    numtires: 4,
+    model: "Hyundai"
 };
 var motorcycle = {
-    color = "RED",
-    numtires= 2,
-    model = "Honda"
+    color: "RED",
+    numtires: 2,
+    modeL: "Honda"
 };
 
 var person = {
